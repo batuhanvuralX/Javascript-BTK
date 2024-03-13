@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-divece=width initial-scale=1.0">
+        <title>JavaScript Öğreniyorum</title>
+
+
+    </head>
+    <body>
+
+        <script>
+            var x=5;
+            document.write("veri tipi:"+typeof(x)+"<br>");
+            var y="batuhan";
+            document.write("veri tipi:"+typeof(y)+"<br>");
+            var z=true;
+            document.write("veri tipi:"+typeof(z)+"<br>");
+
+            // değişkenler ile ilgili bilgiler
+            // değişkene değer atanmazsa (undefined) olarak tanımlar
+            var d;
+            document.write(d) // undefined
+            document.write("<br>");
+
+            // sözel veriler ("") veya ('') içine yazılabilir
+            var ad="batuhan";
+            var soyad='vural';
+
+            document.write("merhaba ben "+ad+" "+soyad)
+            document.write("<br>");
+
+            // tek tırnak içersinde çift tırnak çift tırnak içinde tek tırnak kullanabilirsin
+            
+            var cumle='ona "koca yusuf"derlerdi...';
+            document.write(cumle);
+            document.write("<br>");
+
+            // Bir değişkene hem sözel hem sayılar değer atarsanız sözel toplama yapar
+
+            var toplama=5+"bilimsel"; // toplam="5bilimsel"
+            document.write(toplama+"<br>");
+            
+            
+            // javascript kodlar soldan sağa doğru okunur!
+            var soldansaga=3+5+"bilimsel";
+            document.write(soldansaga+"<br>");
+
+            // bir değişkene atanan ilk değer string ise diğer bütün değerlerde string olarak gözükür
+
+            var str="batuhan vural"+5+5;
+            document.write(str+"<br>")
+
+        </script>
+
+
+
+    </body>
+
+
+ </html>
